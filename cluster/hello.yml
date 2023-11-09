@@ -1,0 +1,6 @@
+---
+- 
+  name: Hello from nodes
+  hosts: cluster
+  tasks:
+  - command: cat /etc/hostname

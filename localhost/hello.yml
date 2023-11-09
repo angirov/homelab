@@ -1,0 +1,7 @@
+---
+- 
+  name: Hello from nodes
+  hosts: 127.0.0.1
+  connection: local
+  tasks:
+  - command: cat /etc/hostname
