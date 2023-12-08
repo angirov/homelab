@@ -1,0 +1,2 @@
+[K8s_nodes]
+node-test ansible_host=192.168.178.46 ansible_user=cap ansible_ssh_private_key_file=~/.ssh/id_rsa
