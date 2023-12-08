@@ -1,4 +1,17 @@
-[cluster]
+[cluster] 
+# homeserver ansible_host=192.168.178.100 ansible_user=cap ansible_ssh_private_key_file=~/.ssh/id_rsa
 node01 ansible_host=192.168.178.101 ansible_user=cap ansible_ssh_private_key_file=~/.ssh/id_rsa
 node02 ansible_host=192.168.178.102 ansible_user=cap ansible_ssh_private_key_file=~/.ssh/id_rsa
 node03 ansible_host=192.168.178.103 ansible_user=cap ansible_ssh_private_key_file=~/.ssh/id_rsa
+
+[K8s_nodes]
+node01
+node02
+node03
+
+[K8s_masters]
+node01
+
+[K8s_workers]
+node02
+node03
